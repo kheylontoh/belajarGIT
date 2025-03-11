@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #c0f597;
+            color: #333;
+        }
+
+        header {
+            background-color: darkolivegreen;
+            color: darkolivegreen;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+            nav ul li {
+                display: inline;
+                margin: 0 15px;
+            }
+
+                nav ul li a {
+                    text-decoration: none;
+                    color: white;
+                    font-weight: bold;
+                }
+
+                    nav ul li a:hover {
+                        text-decoration: underline;
+                    }
+
+        .cover-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        h1 {
+            color: green;
+        }
+
+        h2 {
+            margin-top: 20px;
+            color: green;
+        }
+
+        footer {
+            background-color: darkolivegreen;
+            color: whitesmoke;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Button styles */
+        .button {
+            background-color: whitesmoke;
+            color: green;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+            .button:hover {
+                background-color: whitesmoke;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="HTML website.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Welcome to My Website!</h1>
+        <p>Ini merupakan halaman utama yang berisikan informasi dari website ini.</p>
+        <p>Jelajahi halaman galeri, blog, dan juga kontak.</p>
+        <div>
+            <img src="gambar/matchacover.jpeg" class="cover-image" alt="Cover Image">
+        </div>
+ 
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Khey Website.</p>
+    </footer>
+</body>
+</html>
